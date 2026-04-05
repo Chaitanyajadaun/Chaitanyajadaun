@@ -6,42 +6,40 @@ import ClientLayout from "./client"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "Vivek Jadaun | Senior Software Engineer",
+  title: "Chaitanya Kumar Jadaun | Enthusiastic B.Tech Student",
   description:
-    "Portfolio of Vivek Jadaun, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Laravel, and AWS.",
+    "Portfolio of Chaitanya Kumar Jadaun, a B.Tech student specializing in Electronics and Communication Engineering (VLSI).",
   keywords: [
-    "Vivek Jadaun",
-    "Software Engineer",
-    "Full Stack Developer",
-    "JavaScript",
-    "TypeScript",
+    "Chaitanya Kumar Jadaun",
+    "B.Tech Student",
+    "Web Developer",
+    "Electronics and Communication",
+    "VLSI",
     "React",
-    "Node.js",
-    "AWS",
+    "Python",
   ],
-  authors: [{ name: "Vivek Jadaun" }],
-  creator: "Vivek Jadaun",
+  authors: [{ name: "Chaitanya Kumar Jadaun" }],
+  creator: "Chaitanya Kumar Jadaun",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.png", type: "image/svg+xml" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
     ],
-    apple: [{ url: "/apple-touch-icon.png" }],
+    apple: [{ url: "/favicon.svg" }],
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://vivekjadaun.vercel.app",
-    title: "Vivek Jadaun | Senior Software Engineer",
+    url: "https://chaitanyajadaun.vercel.app",
+    title: "Chaitanya Kumar Jadaun | Portfolio",
     description:
-      "Portfolio of Vivek Jadaun, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Laravel, and AWS.",
-    siteName: "Vivek Jadaun Portfolio",
+      "Portfolio of Chaitanya Kumar Jadaun, a B.Tech student specializing in VLSI and Web Development.",
+    siteName: "Chaitanya Kumar Jadaun Portfolio",
     images: [
       {
-        url: "/favicon.png",
+        url: "/favicon.svg",
         width: 512,
         height: 512,
-        alt: "Vivek Jadaun Logo",
+        alt: "Chaitanya Kumar Jadaun Logo",
       },
     ],
   },

@@ -19,23 +19,22 @@ export default function Hero() {
         <div className="flex flex-col items-center space-y-4 text-center">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-              Hi, I&apos;m <span className="gradient-text">Vivek Jadaun</span>
+              Hi, I&apos;m <span className="gradient-text">Chaitanya Kumar Jadaun</span>
             </h1>
             <p className="mx-auto max-w-[700px] text-xl text-muted-foreground md:text-2xl">
               <span className="js-only">
-                <span>Software Engineer</span>
+                <span>B.Tech Student & Web Developer</span>
               </span>
               <noscript>
                 <span>
-                  Software Engineer | Full Stack Developer | Frontend Specialist
+                  B.Tech Student | VLSI Enthusiast | Full Stack Developer
                 </span>
               </noscript>
             </p>
           </div>
           <div className="max-w-[700px] text-muted-foreground">
             <p className="text-lg">
-              Building scalable, secure, and high performance full-stack web
-              applications with over 7 years of experience
+              Building scalable web applications, expanding my skills in modern technologies, and growing through hands-on collaborative projects.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">

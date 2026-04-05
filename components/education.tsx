@@ -24,20 +24,19 @@ export default function Education() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold">
-                      Bachelor of Technology: Computer Science & Engineering
+                      Bachelor of Technology: Electronics and Communication Engineering (VLSI)
                     </h3>
                     <p className="text-muted-foreground">
-                      Maharaja Agrasen Institute of Technology, GGSIPU (2014-18)
+                      Current B.Tech Student
                     </p>
                   </div>
                 </div>
                 <div className="p-6">
                   <p className="text-muted-foreground">
-                    Completed a comprehensive computer engineering program with
-                    a focus on software development, algorithms, data
-                    structures, and system design. Gained a strong foundation in
-                    computer science principles and engineering practices that
-                    have been instrumental in my professional career.
+                    Pursuing a comprehensive engineering program with a strong focus on VLSI design,
+                    programming, and software development. Developing practical skills in
+                    modern web technologies, microcontrollers, and hardware description languages,
+                    preparing for a dynamic career in tech.
                   </p>
                 </div>
               </CardContent>

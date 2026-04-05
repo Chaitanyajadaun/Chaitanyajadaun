@@ -5,27 +5,27 @@ export default function About() {
   const features = [
     {
       icon: <Code2 className="h-10 w-10 text-primary" />,
-      title: "Full Stack Development",
+      title: "Programming Foundation",
       description:
-        "Expertise in JavaScript, TypeScript, React.js, Next.Js, Node.js, and Express",
-    },
-    {
-      icon: <Server className="h-10 w-10 text-primary" />,
-      title: "Cloud Solutions",
-      description:
-        "Proficient with AWS services including Amplify, AppSync, ECS, and S3",
-    },
-    {
-      icon: <Users className="h-10 w-10 text-primary" />,
-      title: "Team Leadership",
-      description:
-        "Led diverse teams of 5+ members across development, design, QA and deployment",
+        "Strong fundamental skills in Python and C for problem-solving.",
     },
     {
       icon: <Globe className="h-10 w-10 text-primary" />,
-      title: "Global Collaboration",
+      title: "Web Development",
       description:
-        "Coordinated with remote teams across the US, EU, Nigeria and India",
+        "Developing web applications using React, HTML5, CSS3, JavaScript, and REST APIs.",
+    },
+    {
+      icon: <Users className="h-10 w-10 text-primary" />,
+      title: "Mobile Development",
+      description:
+        "Building location-based mobile applications and services with Kotlin and Android SDK.",
+    },
+    {
+      icon: <Server className="h-10 w-10 text-primary" />,
+      title: "Hardware Engineering",
+      description:
+        "Specializing in Electronics and Communication Engineering (VLSI) utilizing Verilog.",
     },
   ];
 
@@ -39,21 +39,13 @@ export default function About() {
                 About Me
               </h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Experienced Senior Software Engineer with over seven years of
-                expertise as a Full Stack Developer, specializing in JavaScript,
-                TypeScript, React.js, Next.Js, Node.js and Express.
+                Enthusiastic B.Tech student specializing in Electronics and Communication Engineering (VLSI).
               </p>
             </div>
 
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed">
-                Software engineer with 7 years of experience in developing
-                scalable and high performance full-stack web applications.
-                Specialized in leading front-end development, optimizing system
-                architectures and building robust solutions across industries
-                like construction, engineering, and e-commerce. Skilled in
-                clean, maintainable coding with SOLID/DRY principles and Agile
-                experience
+                I have a strong foundation in programming and web development with hands-on experience in HTML, CSS, Python, and MySQL. Actively involved in technical societies and collaborative projects, I am passionate about building scalable applications, learning modern technologies, and tackling complex engineering challenges.
               </p>
             </div>
 

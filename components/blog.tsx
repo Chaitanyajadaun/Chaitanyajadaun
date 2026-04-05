@@ -20,11 +20,11 @@ export default function Blog() {
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-bold mb-4">Visit My Blog</h3>
                 <p className="text-muted-foreground mb-6">
-                  I write about JavaScript, React, Node.js, AWS, and other technologies on my Hashnode blog. Check out
+                  I write about web development, electronics, and technical events on my blog. Check out
                   my latest articles and tutorials.
                 </p>
                 <Button asChild>
-                  <Link href="https://nihalmaskey.hashnode.dev" target="_blank" rel="noopener noreferrer">
+                  <Link href="#" target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="mr-2 h-4 w-4" /> Visit Blog
                   </Link>
                 </Button>

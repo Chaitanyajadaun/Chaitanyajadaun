@@ -6,19 +6,19 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function enableContactForm() {
-  return process.env.NEXT_PUBLIC_ENABLE_CONTACT_FORM === "true"
+  return process.env.NEXT_PUBLIC_ENABLE_CONTACT_FORM
 }
 
 export function enableBlogSection() {
-  return process.env.NEXT_PUBLIC_ENABLE_BLOG_SECTION === "true";
+  return process.env.NEXT_PUBLIC_ENABLE_BLOG_SECTION;
 }
 
 export function enableProjectsSection() {
-  return process.env.NEXT_PUBLIC_ENABLE_PROJECTS_SECTION === "true";
+  return process.env.NEXT_PUBLIC_ENABLE_PROJECTS_SECTION;
 }
 
 export function enableColorSchemeSwitching() {
-  return process.env.NEXT_PUBLIC_ENABLE_COLOR_SCHEME_SWITCHING === "true";
+  return process.env.NEXT_PUBLIC_ENABLE_COLOR_SCHEME_SWITCHING;
 }
 
 export function getResumeLink() {

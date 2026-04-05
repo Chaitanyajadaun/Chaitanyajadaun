@@ -35,7 +35,7 @@ export default function ClientLayout({
           }
         `}</style>
       </head>
-      <body className={cn("min-h-screen bg-background font-mono antialiased", fontSans.variable)}>
+      <body className={cn("min-h-screen bg-background font-mono antialiased", fontSans.variable)} suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true} disableTransitionOnChange>
           <div className="relative flex min-h-screen flex-col overflow-hidden">
             <noscript>

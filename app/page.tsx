@@ -10,9 +10,9 @@ import { enableBlogSection, enableProjectsSection } from "@/lib/utils"
 import Skills from "@/components/skills"
 
 export const metadata: Metadata = {
-  title: "Vivek Jadaun | Senior Software Engineer",
+  title: "Chaitanya Kumar Jadaun | Enthusiastic B.Tech Student",
   description:
-    "Portfolio of Vivek Jadaun, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Laravel, and AWS.",
+    "Portfolio of Chaitanya Kumar Jadaun, a B.Tech student specializing in Electronics and Communication Engineering (VLSI) with strong web development skills.",
 };
 
 export default function Home() {
