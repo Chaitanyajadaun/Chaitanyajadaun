@@ -23,7 +23,7 @@ export default function Hero() {
             </h1>
             <p className="mx-auto max-w-[700px] text-xl text-muted-foreground md:text-2xl">
               <span className="js-only">
-                <span>B.Tech Student & Web Developer</span>
+                <span>B.Tech Student</span>
               </span>
               <noscript>
                 <span>

@@ -6,7 +6,7 @@ const experiences = [
     title: "Technical Executive",
     company: "CSI Innowave Society",
     period: "09/2024 - 02/2026",
-    location: "On-site / Hybrid",
+    location: "",
     achievements: [
       "Redesigned the society website, significantly enhancing UI/UX and improving responsiveness across devices.",
       "Contributed to application development by assisting in implementing minor features and resolving issues.",
@@ -24,7 +24,7 @@ export default function Experience() {
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Experience</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              My professional journey and key accomplishments
+              Key accomplishments
             </p>
           </div>
 

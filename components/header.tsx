@@ -3,14 +3,13 @@
 import type React from "react";
 
 import { useState, useEffect, useCallback } from "react";
-import { ModeToggle } from "./mode-toggle";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { cn, enableBlogSection, enableProjectsSection } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ColorSchemeToggle } from "./color-scheme-toggle";
+import { ModeToggle } from "./mode-toggle";
 const showProjects = enableProjectsSection();
 const showBlog = enableBlogSection();
 
@@ -165,13 +164,11 @@ export default function Header() {
               );
             })}
           </div>
-          <ColorSchemeToggle />
           <ModeToggle />
         </nav>
 
         {/* Mobile Navigation Toggle */}
         <div className="flex items-center md:hidden space-x-4">
-          <ColorSchemeToggle />
           <ModeToggle />
           <Button
             variant="ghost"

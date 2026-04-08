@@ -6,19 +6,19 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function enableContactForm() {
-  return process.env.NEXT_PUBLIC_ENABLE_CONTACT_FORM
+  return process.env.NEXT_PUBLIC_ENABLE_CONTACT_FORM !== "false"
 }
 
 export function enableBlogSection() {
-  return process.env.NEXT_PUBLIC_ENABLE_BLOG_SECTION;
+  return process.env.NEXT_PUBLIC_ENABLE_BLOG_SECTION !== "false";
 }
 
 export function enableProjectsSection() {
-  return process.env.NEXT_PUBLIC_ENABLE_PROJECTS_SECTION;
+  return process.env.NEXT_PUBLIC_ENABLE_PROJECTS_SECTION !== "false";
 }
 
 export function enableColorSchemeSwitching() {
-  return process.env.NEXT_PUBLIC_ENABLE_COLOR_SCHEME_SWITCHING;
+  return process.env.NEXT_PUBLIC_ENABLE_COLOR_SCHEME_SWITCHING !== "false";
 }
 
 export function getResumeLink() {
@@ -75,4 +75,19 @@ export const colorSchemes = [
     // secondary: "#f9ef41", // Bright Blue
     secondary: "#0f766e", // Vibrant Purple
   },
+  {
+    name: "Mint Sky",
+    primary: "#4ade80", // Light Green
+    secondary: "#60a5fa", // Soft Blue
+  },
+  {
+      name: "Emerald Tide",
+      primary: "#065f46", // Deep Emerald
+      secondary: "#1d4ed8", // Royal Blue
+  },
+  {
+      name: "Blue Grove",
+      primary: "#2563eb", // Vibrant Blue
+      secondary: "#14b8a6", // Fresh Green
+  }
 ];

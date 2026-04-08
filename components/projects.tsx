@@ -10,15 +10,13 @@ export default function Projects() {
       description:
         "Developed a GPS-based mobile application that alerts users when they are nearing their selected destination, preventing missed stops during travel. It uses real-time location tracking to trigger notifications.",
       tags: ["Kotlin", "Android SDK", "Google Location Services"],
-      codeLink: "https://github.com/chaitanyajadaun",
       liveLink: null,
     },
     {
       title: "AI Virtual Try-On Web App",
       description:
-        "Developed an AI-powered web application that generates customizable human avatars based on physical attributes and simulates clothing try-ons using uploaded images.",
+        "Developed a Claude-integrated web application that generates customizable human avatars based on user-defined physical attributes and simulates clothing try-ons using uploaded images. Leveraged NanoBanana API along with computer vision and diffusion models for realistic results, with a React frontend and FastAPI backend, enabling applications in fashion, e-commerce, and virtual styling.",
       tags: ["React", "FastAPI", "PyTorch", "OpenCV", "Stable Diffusion"],
-      codeLink: "https://github.com/chaitanyajadaun",
       liveLink: null,
     },
   ]
@@ -30,7 +28,7 @@ export default function Projects() {
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Projects</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              A selection of my personal and professional projects
+              A selection of my personal projects
             </p>
           </div>
 
@@ -48,20 +46,15 @@ export default function Projects() {
                         </span>
                       ))}
                     </div>
-                    <div className="project-links mt-4">
-                      <Button size="sm" variant="outline" asChild>
-                        <Link href={project.codeLink} target="_blank" rel="noopener noreferrer">
-                          <Github className="mr-1 h-4 w-4" /> Code
-                        </Link>
-                      </Button>
-                      {project.liveLink && (
+                    {project.liveLink && (
+                      <div className="project-links mt-4">
                         <Button size="sm" variant="outline" asChild>
                           <Link href={project.liveLink} target="_blank" rel="noopener noreferrer">
                             <ExternalLink className="mr-1 h-4 w-4" /> Live
                           </Link>
                         </Button>
-                      )}
-                    </div>
+                      </div>
+                    )}
                   </CardContent>
                 </Card>
               </div>

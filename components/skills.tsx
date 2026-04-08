@@ -4,19 +4,23 @@ import { Badge } from "@/components/ui/badge"
 const skillCategories = [
   {
     category: "Languages",
-    skills: ["Python", "C", "Kotlin", "JavaScript"],
+    skills: ["Python", "C", "Kotlin"],
   },
   {
     category: "Web & Database",
-    skills: ["React", "HTML5", "CSS3", "MySQL", "REST"],
+    skills: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "MySQL", "REST API"],
   },
   {
     category: "Mobile Development",
-    skills: ["Android SDK", "Kotlin Concepts", "Google Location Services", "Background Services"],
+    skills: ["Kotlin", "Android SDK", "Google Location Services", "Background Services"],
+  },
+  {
+    category: "Frameworks & Libraries",
+    skills: ["Fast API", "PyTorch", "TailwindCSS"],
   },
   {
     category: "Tools & Methodologies",
-    skills: ["Git", "VS Code", "Antigravity", "Claude Code", "Android Studio", "Postman"],
+    skills: ["Git", "VS Code", "Antigravity", "Claude Code", "Nano Banana 2", "Android Studio", "Postman"],
   },
   {
     category: "Hardware",

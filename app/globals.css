@@ -10,9 +10,9 @@
     --card-foreground: 240 10% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
-    --primary: 160 84% 39%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 175 77% 26%;
+    --primary: 221 84% 39%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 221 77% 26%;
     --secondary-foreground: 0 0% 98%;
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 10% 25%;
@@ -22,7 +22,7 @@
     --destructive-foreground: 0 0% 98%;
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 160 84% 39%;
+    --ring: 221 84% 39%;
     --radius: 0.5rem;
     --font-mono:
       "Geist Mono", ui-monospace, SFMono-Regular, "Roboto Mono", Menlo, Monaco, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -35,9 +35,9 @@
     --card-foreground: 0 0% 95%;
     --popover: 0 0% 9%;
     --popover-foreground: 0 0% 95%;
-    --primary: 160 84% 39%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 175 77% 26%;
+    --primary: 221 84% 39%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 221 77% 26%;
     --secondary-foreground: 0 0% 98%;
     --muted: 0 0% 15%;
     --muted-foreground: 240 5% 75%;
@@ -47,7 +47,7 @@
     --destructive-foreground: 0 85.7% 97.3%;
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 160 84% 39%;
+    --ring: 221 84% 39%;
   }
 }
 
@@ -55,10 +55,12 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-mono);
-    padding-top: 4rem; /* 64px, matches the header height */
+    padding-top: 4rem;
+    /* 64px, matches the header height */
   }
 }
 
@@ -71,6 +73,7 @@
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
