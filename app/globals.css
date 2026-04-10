@@ -82,11 +82,22 @@
 
 .timeline-item {
   @apply relative pl-8 pb-12;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: translateX(5px);
 }
 
 .timeline-item::before {
   content: "";
   @apply absolute left-0 top-1 h-4 w-4 rounded-full bg-primary;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.timeline-item:hover::before {
+  transform: scale(1.2);
+  background-color: hsl(var(--primary) / 80%);
 }
 
 .timeline-item::after {
@@ -104,7 +115,7 @@
 }
 
 .gradient-text {
-  @apply bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
 }
 
 .skill-card {
@@ -204,23 +215,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Enhanced timeline animations */
-.timeline-item {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.timeline-item:hover {
-  transform: translateX(5px);
-}
-
-.timeline-item::before {
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.timeline-item:hover::before {
-  transform: scale(1.2);
-  background-color: hsl(var(--primary) / 80%);
-}
+/* Enhanced timeline animations — consolidated above */
 
 /* Ensure header is sticky */
 header {
